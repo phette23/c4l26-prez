@@ -12,16 +12,24 @@ function showSlide(index) {
   if (index < 0) index = 0
   if (index >= totalSlides) index = totalSlides - 1
 
+  // Get the slide we're about to show
+  const activeSlide = slides[index]
+  
+  // CRITICAL: Clear any existing focus BEFORE changing aria-hidden
+  // This prevents the "blocked aria-hidden" warning when an element retains focus
+  if (document.activeElement) {
+    document.activeElement.blur()
+  }
+  
   // Hide all slides and mark as hidden for screen readers
   slides.forEach(slide => {
     slide.classList.remove('active')
     slide.setAttribute('aria-hidden', 'true')
   })
-
+  
   // Show current slide
-  const activeSlide = slides[index]
-  activeSlide.classList.add('active')
   activeSlide.setAttribute('aria-hidden', 'false')
+  activeSlide.classList.add('active')
   currentSlide = index
 
   // Update UI
@@ -36,9 +44,8 @@ function showSlide(index) {
   announcer.textContent = `Slide ${index + 1} of ${totalSlides}${headingText ? ': ' + headingText : ''}`
 
   // Focus management: move focus to slide content for keyboard users
-  // This allows screen reader users to immediately start reading the slide
   const focusTarget = slideContent.querySelector('h1, h2, h3, h4, h5, h6') || slideContent
-  if (focusTarget.tagName.match(/^H[1-6]$/)) {
+  if (focusTarget.tagName && focusTarget.tagName.match(/^H[1-6]$/)) {
     // Make heading focusable temporarily
     focusTarget.setAttribute('tabindex', '-1')
     focusTarget.focus()

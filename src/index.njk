@@ -6,7 +6,7 @@ permalink: /
 
 <div id="slide-container" role="region" aria-label="Presentation slides">
   {% for slide in collections.slides %}
-  <div class="slide" data-slide="{{ loop.index0 }}" role="article" aria-label="Slide {{ loop.index }} of {{ collections.slides.length }}" aria-hidden="true" id="slide-{{ loop.index0 }}">
+  <div class="slide" data-slide="{{ loop.index0 }}" role="article" aria-label="Slide {{ loop.index }} of {{ collections.slides.length }}" aria-hidden="{% if loop.first %}false{% else %}true{% endif %}" id="slide-{{ loop.index0 }}">
     <div class="slide-content" id="main-content">
       {{ slide.templateContent | safe }}
     </div>
