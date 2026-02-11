@@ -3,8 +3,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css")
   eleventyConfig.addPassthroughCopy("src/js")
 
-  // Watch CSS files for changes
+  // Watch files for changes
   eleventyConfig.addWatchTarget("src/css/")
+  eleventyConfig.addWatchTarget("src/js/")
 
   // Create a collection of all slides, sorted by order
   eleventyConfig.addCollection("slides", function(collectionApi) {

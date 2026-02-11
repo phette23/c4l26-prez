@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 bodyClass: print-view
-permalink: /print/
+permalink: /print.html
 ---
 
 <main id="main-content">
@@ -15,7 +15,7 @@ permalink: /print/
       <span>Slide View</span>
     </a>
   </nav>
-  
+
   <div id="print-container" role="region" aria-label="All presentation slides">
     {% for slide in collections.slides %}
     <article class="slide-page" aria-labelledby="slide-{{ loop.index0 }}-heading">
