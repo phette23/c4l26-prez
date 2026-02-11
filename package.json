@@ -1,0 +1,16 @@
+{
+  "name": "lib-md-values",
+  "version": "1.0.0",
+  "description": "Presentation on the values of librarianship and metadata controlled vocabularies",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "clean": "rm -rf _site"
+  },
+  "keywords": ["presentation", "librarianship", "metadata", "controlled-vocabularies"],
+  "author": "Eric Phetteplace <phette23@gmail.com>",
+  "license": "CC-BY-4.0",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}

@@ -1,0 +1,34 @@
+---
+layout: base.njk
+bodyClass: slide-view
+permalink: /
+---
+
+<div id="slide-container" role="region" aria-label="Presentation slides">
+  {% for slide in collections.slides %}
+  <div class="slide" data-slide="{{ loop.index0 }}" role="article" aria-label="Slide {{ loop.index }} of {{ collections.slides.length }}" aria-hidden="true" id="slide-{{ loop.index0 }}">
+    <div class="slide-content" id="main-content">
+      {{ slide.templateContent | safe }}
+    </div>
+    <div class="slide-footer">
+      <span class="slide-number" aria-label="Current position">{{ loop.index }} / {{ collections.slides.length }}</span>
+      <a href="/print/" class="print-link" aria-label="View all slides for printing">
+        <svg class="print-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+          <polyline points="6 9 6 2 18 2 18 9"></polyline>
+          <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+          <rect x="6" y="14" width="12" height="8"></rect>
+        </svg>
+        <span>Print View</span>
+      </a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div id="slide-announcer" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true"></div>
+
+<nav class="slide-nav" aria-label="Slide navigation">
+  <button id="prev-btn" aria-label="Previous slide" aria-controls="slide-container">←</button>
+  <span id="current-slide" aria-live="polite" aria-atomic="true">1</span> / <span id="total-slides">{{ collections.slides.length }}</span>
+  <button id="next-btn" aria-label="Next slide" aria-controls="slide-container">→</button>
+</nav>

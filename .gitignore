@@ -1,0 +1,8 @@
+node_modules/
+_site/
+.DS_Store
+*.log
+.env
+.cache
+.github/copilot-instructions.md
+ACCESSIBILITY.md

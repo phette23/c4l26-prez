@@ -1,0 +1,31 @@
+---
+layout: base.njk
+bodyClass: print-view
+permalink: /print/
+---
+
+<main id="main-content">
+  <nav class="print-view-nav" aria-label="View navigation">
+    <a href="/" class="slide-view-link">
+      <svg class="slides-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+        <line x1="8" y1="21" x2="16" y2="21"></line>
+        <line x1="12" y1="17" x2="12" y2="21"></line>
+      </svg>
+      <span>Slide View</span>
+    </a>
+  </nav>
+  
+  <div id="print-container" role="region" aria-label="All presentation slides">
+    {% for slide in collections.slides %}
+    <article class="slide-page" aria-labelledby="slide-{{ loop.index0 }}-heading">
+      <div class="slide-content">
+        {{ slide.templateContent | safe }}
+      </div>
+      <div class="slide-footer">
+        <span class="slide-number">{{ loop.index }} / {{ collections.slides.length }}</span>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</main>
