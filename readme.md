@@ -37,7 +37,7 @@ The site is generated in the `_site` directory.
 
 ### Slide View
 
-The main presentation view (`/`) displays one slide at a time.
+The main presentation view displays one slide at a time.
 
 **Keyboard shortcuts:**
 
@@ -50,11 +50,11 @@ You can also use the navigation buttons at the bottom of the screen.
 
 ### Print View
 
-Visit `/print/` to see all slides in a single page, optimized for printing to PDF.
+Visit `/print.html` to see all slides in a single page, optimized for printing to PDF.
 
 **To create a PDF:**
 
-1. Navigate to `/print/` in your browser
+1. Navigate to `/print.html` in your browser
 2. Open print dialog (`Cmd/Ctrl + P`)
 3. Select "Save as PDF" as the destination
 4. Adjust settings as needed (remove headers/footers for cleaner output)
