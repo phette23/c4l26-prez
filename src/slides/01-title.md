@@ -4,11 +4,9 @@ order: 1
 
 # On Searching for Library Standards that Align with Library Values
 
-**Eric Phetteplace**
-
-**Systems Librarian**
-
-**California College of the Arts**
+<p><strong>Eric Phetteplace<br/>
+Systems Librarian<br/>
+California College of the Arts</strong></p>
 
 <div class="social-links">
   <a href="https://digipres.club/@phette23" rel="me" aria-label="Mastodon profile">
