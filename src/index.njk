@@ -4,7 +4,7 @@ bodyClass: slide-view
 permalink: /
 ---
 
-<div id="slide-container" role="region" aria-label="Presentation slides">
+<main id="slide-container" aria-label="Presentation slides">
   {% for slide in collections.slides %}
   <div class="slide" data-slide="{{ loop.index0 }}" role="article" aria-label="Slide {{ loop.index }} of {{ collections.slides.length }}" aria-hidden="{% if loop.first %}false{% else %}true{% endif %}" id="slide-{{ loop.index0 }}">
     <div class="slide-content" id="main-content">
@@ -23,7 +23,7 @@ permalink: /
     </div>
   </div>
   {% endfor %}
-</div>
+</main>
 
 <div id="slide-announcer" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true"></div>
 
