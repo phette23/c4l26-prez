@@ -14,19 +14,19 @@ function showSlide(index) {
 
   // Get the slide we're about to show
   const activeSlide = slides[index]
-  
+
   // CRITICAL: Clear any existing focus BEFORE changing aria-hidden
   // This prevents the "blocked aria-hidden" warning when an element retains focus
   if (document.activeElement) {
     document.activeElement.blur()
   }
-  
+
   // Hide all slides and mark as hidden for screen readers
   slides.forEach(slide => {
     slide.classList.remove('active')
     slide.setAttribute('aria-hidden', 'true')
   })
-  
+
   // Show current slide
   activeSlide.setAttribute('aria-hidden', 'false')
   activeSlide.classList.add('active')
