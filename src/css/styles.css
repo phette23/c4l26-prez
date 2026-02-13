@@ -390,7 +390,8 @@ blockquote {
   margin-top: auto;
   padding-top: 2rem;
   font-size: 0.85rem;
-  color: #888;
+  /* lighter grays have insufficient contrast w/ white bg */
+  color: #575757;
   line-height: 1.4;
   margin-bottom: 0;
 }
