@@ -3,8 +3,9 @@
   --slide-text: #1a1a1a;
   --accent-color: #2c5aa0;
   --secondary-color: #5c8cd6;
+  --gray-font: #575757;
   --slide-height: 700px;
-  --slide-width: 900px;
+  --slide-width: 1200px;
 }
 
 * {
@@ -322,12 +323,8 @@ em {
   font-style: italic;
 }
 
-code {
-  background: #f5f5f5;
-  border-radius: 3px;
-  font-family: 'Courier New', monospace;
-  font-size: 0.95em;
-  padding: 2px 6px;
+img {
+  max-width: 100%;
 }
 
 blockquote {
@@ -336,6 +333,10 @@ blockquote {
   font-style: italic;
   margin: 1.5rem 0;
   padding-left: 1.5rem;
+}
+
+figcaption {
+  color: var(--gray-font);
 }
 
 .center {
@@ -387,7 +388,7 @@ blockquote {
 
 /* Footnotes - smaller, fainter text at bottom of slide */
 .footnote {
-  color: #575757;
+  color: var(--gray-font);
   font-size: 0.85rem;
   /* lighter grays have insufficient contrast w/ white bg */
   line-height: 1.4;

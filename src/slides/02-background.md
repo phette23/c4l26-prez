@@ -14,7 +14,3 @@ title: "Background & Motivation"
     </subject>
 </mods>
 ```
-
-Mapped all our existing terms to URIs in LC vocabularies
-
-Why did I choose LC? Familiar, comprehensive.
