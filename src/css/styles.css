@@ -344,7 +344,7 @@ figcaption {
 }
 
 .subtitle {
-  color: #666;
+  color: var(--gray-font);
   font-size: 1.5rem;
   margin-bottom: 2rem;
   margin-top: -0.8rem;
