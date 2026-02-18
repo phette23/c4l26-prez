@@ -1,8 +1,7 @@
 ---
 order: 1
+title: "On Searching for Library Standards that Align with Library Values"
 ---
-
-# On Searching for Library Standards that Align with Library Values
 
 <p><strong>Eric Phetteplace<br/>
 Systems Librarian<br/>

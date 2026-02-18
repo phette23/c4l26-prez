@@ -1,8 +1,7 @@
 ---
 order: 15
+title: "Cataloging Values"
 ---
-
-## Cataloging Values
 
 Makes no sense in terms of cataloging values
 

@@ -1,8 +1,7 @@
 ---
 order: 30
+title: "A Search for Alternatives"
 ---
-
-## A Search for Alternatives
 
 What do we want?
 

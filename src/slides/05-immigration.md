@@ -1,8 +1,7 @@
 ---
 order: 20
+title: "Familiar Ground"
 ---
-
-## Familiar Ground
 
 <div class="subtitle">Remember the "Illegal Immigrants" debacle?</div>
 

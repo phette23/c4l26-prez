@@ -20,6 +20,12 @@ permalink: /print.html
     {% for slide in collections.slides %}
     <article class="slide-page" aria-labelledby="slide-{{ loop.index0 }}-heading">
       <div class="slide-content">
+        {# a11y: header hierarchy => first slide gets h1, others h2 #}
+        {% if loop.first %}
+          <h1 id="slide-{{ loop.index0 }}-heading">{{ slide.data.title }}</h1>
+        {% else %}
+          <h2 id="slide-{{ loop.index0 }}-heading">{{ slide.data.title }}</h2>
+        {% endif %}
         {{ slide.templateContent | safe }}
       </div>
       <div class="slide-footer">

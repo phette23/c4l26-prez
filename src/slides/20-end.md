@@ -1,7 +1,6 @@
 ---
 order: 55
+title: "Sad Ending"
 ---
-
-## Sad Ending
 
 Repository project will never be completed because of CCA closing

@@ -8,6 +8,7 @@ permalink: /
   {% for slide in collections.slides %}
   <div class="slide" data-slide="{{ loop.index0 }}" role="article" aria-label="Slide {{ loop.index }} of {{ collections.slides.length }}" aria-hidden="{% if loop.first %}false{% else %}true{% endif %}" id="slide-{{ loop.index0 }}">
     <div class="slide-content" id="main-content">
+      <h1>{{ slide.data.title }}</h1>
       {{ slide.templateContent | safe }}
     </div>
     <div class="slide-footer">

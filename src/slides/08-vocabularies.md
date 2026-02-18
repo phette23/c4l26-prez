@@ -1,8 +1,7 @@
 ---
 order: 35
+title: "Vocabularies"
 ---
-
-## Vocabularies
 
 - Homosaurus
 - Getty

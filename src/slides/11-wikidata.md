@@ -1,8 +1,7 @@
 ---
 order: 50
+title: "Wikidata"
 ---
-
-## Wikidata
 
 - Easy to contribute to
 - Create identities for our missing people

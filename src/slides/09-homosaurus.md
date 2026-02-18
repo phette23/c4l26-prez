@@ -1,8 +1,7 @@
 ---
 order: 40
+title: "Homosaurus"
 ---
-
-## Homosaurus
 
 - Community-run
 - Excellent features

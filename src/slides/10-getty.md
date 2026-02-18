@@ -1,8 +1,7 @@
 ---
 order: 45
+title: "Getty"
 ---
-
-## Getty
 
 - ULAN (names)
 - AAT (subjects, genres)
