@@ -3,15 +3,11 @@ import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight"
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight)
 
-  // Pass through static assets
-  eleventyConfig.addPassthroughCopy("src/css")
-  eleventyConfig.addPassthroughCopy("src/img")
-  eleventyConfig.addPassthroughCopy("src/js")
-
-  // Watch files for changes
-  eleventyConfig.addWatchTarget("src/css/")
-  eleventyConfig.addWatchTarget("src/img/")
-  eleventyConfig.addWatchTarget("src/js/")
+  // Copy static assets (automatically watches too)
+  const dirs = ["src/css", "src/img", "src/js"]
+  dirs.forEach(dir => {
+    eleventyConfig.addPassthroughCopy(dir)
+  })
 
   // Create a collection of all slides, sorted by order
   eleventyConfig.addCollection("slides", function (collectionApi) {
