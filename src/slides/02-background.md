@@ -4,7 +4,7 @@ title: "Background & Motivation"
 ---
 
 - We were building a new digital repository using InvenioRDM
-- Our existing IR metadata has controlled values but no URIs
+- Our existing <abbr title="Institutional Repository">IR</abbr> metadata has controlled values but no <abbr title="Uniform Resource Identifier">URI</abbr>s
 - Types: places, names (people, organizations), subjects, genres/forms
 
 ```xml

@@ -314,6 +314,10 @@ li {
   margin-bottom: 0.6rem;
 }
 
+abbr {
+  cursor: help;
+}
+
 strong {
   color: var(--accent-color);
   font-weight: 600;
@@ -324,6 +328,7 @@ em {
 }
 
 img {
+  max-height: var(--slide-height);
   max-width: 100%;
 }
 

@@ -4,8 +4,8 @@ title: "Term Mapping: Take 1"
 ---
 
 - InvenioRDM insists upon identifiers for subjects
-- Map most of our values to their LC URIs (LCNAF, LCSH, LCGFT)
-- LC was chosen due to its familiarity and comprehensiveness
+- Map most of our values to Library of Congress <abbr title="Uniform Resource Identifier">URI</abbr>s (<abbr title="Library of Congress Name Authority File">LCNAF</abbr>, <abbr title="Library of Congress Subject Headings">LCSH</abbr>, <abbr title="Library of Congress Genre/Form Terms">LCGFT</abbr>)
+- <abbr title="Library of Congress">LC</abbr> was chosen due to its familiarity and comprehensiveness
 
 <figure>
 <img src="img/terms-sheet.png" alt="Metadata spreadsheet">

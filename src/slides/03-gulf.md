@@ -3,7 +3,7 @@ order: 10
 title: "Gulf of Reason"
 ---
 
-January 20, 2025: [Restoring Names That Honor American Greatness](https://www.whitehouse.gov/presidential-actions/2025/01/restoring-names-that-honor-american-greatness/) EO 14172
+January 20, 2025: [Restoring Names That Honor American Greatness](https://www.whitehouse.gov/presidential-actions/2025/01/restoring-names-that-honor-american-greatness/) <abbr title="Executive Order">EO</abbr> 14172
 
 February 7: [Secretary of the Interior directs Board on Geographic Names (BGN) to rename Gulf of Mexico](https://www.doi.gov/sites/default/files/document_secretarys_orders/so-3423-gulf-of-america_final508.pdf)
 
