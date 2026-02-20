@@ -3,7 +3,30 @@ order: 1
 title: "On Searching for Library Standards that Align with Library Values"
 ---
 
-<p><strong>Eric Phetteplace<br/>
+<!-- code4lib logo -->
+<svg version="1.1" width="181" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 -4.4666666984558105 210.90000915527344 28">
+<text x="0" y="0">code<tspan class="brace">{</tspan>4<tspan class="brace">}</tspan>lib 2026</text>
+ <style>
+  <![CDATA[
+   text {
+    fill: #000;
+    dominant-baseline: hanging;
+    font-family: "Georgia";
+    font-weight: bold;
+    font-size: 24px;
+    font-feature-settings: 'lnum' 1 !important;
+    letter-spacing: 1px;
+   }
+   .brace {
+    fill: #f3d03e;
+   }
+  ]]>
+ </style>
+</svg>
+<strong>March 2, 2026<br>
+Philadelphia, PA<br></strong>
+
+<br><p><strong>Eric Phetteplace<br/>
 Systems Librarian<br/>
 California College of the Arts</strong></p>
 

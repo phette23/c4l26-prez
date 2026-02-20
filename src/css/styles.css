@@ -226,6 +226,18 @@ body {
   width: 18px;
 }
 
+/* ===== TWO COLUMN LAYOUT ===== */
+.row {
+  display: flex;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+
+.col {
+  flex: 1;
+}
+
+/* ===== PRINT VIEW ===== */
 .print-view .slide-page {
   background: var(--slide-bg);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -316,6 +328,8 @@ li {
 
 abbr {
   cursor: help;
+  text-decoration: underline dotted;
+  text-underline-offset: 4px;
 }
 
 strong {
@@ -334,7 +348,7 @@ img {
 
 blockquote {
   border-left: 4px solid var(--accent-color);
-  color: #555;
+  color: var(--gray-font);
   font-style: italic;
   margin: 1.5rem 0;
   padding-left: 1.5rem;
@@ -346,6 +360,10 @@ figcaption {
 
 .center {
   text-align: center;
+}
+
+.large-text {
+  font-size: 1.5rem;
 }
 
 .subtitle {

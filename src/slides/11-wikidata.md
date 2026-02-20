@@ -3,8 +3,11 @@ order: 50
 title: "Wikidata"
 ---
 
-- Easy to contribute to
-- Create identities for our missing people
-- Most "linked" of all data models; many available properties
+- Largest data set
+- Most "linked" of all data models; many available properties (NB: not worth mentioning? this is not particulary important to us)
 - Considerate community working on hard topics like gender
-- How can it be used as a subject or genre/form authority?
+- Easy to contribute to
+- Created entities for missing people
+- Not intended for use as a GLAM authority
+- PCC EMCO
+- Fill in values not available elsewhere, especially proper nouns

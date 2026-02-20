@@ -3,12 +3,8 @@ order: 20
 title: "Familiar Ground"
 ---
 
-<div class="subtitle">Remember the "Illegal Immigrants" debacle?</div>
+Congress has interfered with LCSH, too.
 
-LC using poor and inaccurate term
-
-Student-driven effort to fix the effort (Dartmouth)
-
-Became politicized
-
-They ultimately chose "Noncitizens" and "Unauthorized Immigration" weird split, not easy to migrate to
+<div class="center">
+<img alt="Cover of 'Change the Subject' documentary on the LCSH term change" src="img/change-the-subject.jpeg">
+</div>

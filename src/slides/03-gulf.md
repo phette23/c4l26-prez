@@ -12,5 +12,3 @@ February 13: Library of Congress issues [Tentative Monthly List 12 LCSH 2](https
 February 18: Deadline for the useless comment period on LCSH changes
 
 March 14: ["America, Gulf of" enters LCSH](https://id.loc.gov/authorities/subjects/sh85084621.html)
-
-<p class="footnote">It's truly incredible how fast these edits were made when one considers how long it has taken other, far less controversial, changes to take effect.</p>

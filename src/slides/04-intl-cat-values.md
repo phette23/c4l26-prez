@@ -11,3 +11,5 @@ title: "Cataloging Values"
 - Consistency and standardization
 - Interoperability
 - Rationality
+
+<p class="footnote">See also: <a href="https://alair.ala.org/items/c18ae3c3-1caa-43ef-a250-bf985b87c63e">Cataloging Code of Ethics</a> (<abbr title="American Library Association">ALA</abbr>)</p>
