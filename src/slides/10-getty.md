@@ -20,4 +20,4 @@ title: "Getty"
     </div>
 </div>
 
-<p class="footnote">CONA is also pretty relevant for us but I did not end up using it for any of our terms.</p>
+<p class="footnote"><abbr title="Cultural Objects Name Authority">CONA</abbr> is also pretty relevant for us but I did not end up using it for any of our terms.</p>

@@ -3,6 +3,9 @@ order: 1
 title: "On Searching for Library Standards that Align with Library Values"
 ---
 
+<p class="center subtitle" style="font-size: 200%;">phette.net/c4l26</p>
+
+<p>
 <!-- code4lib logo -->
 <svg version="1.1" width="181" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 -4.4666666984558105 210.90000915527344 28">
 <text x="0" y="0">code<tspan class="brace">{</tspan>4<tspan class="brace">}</tspan>lib 2026</text>
@@ -22,11 +25,11 @@ title: "On Searching for Library Standards that Align with Library Values"
    }
   ]]>
  </style>
-</svg>
+</svg><br>
 <strong>March 2, 2026<br>
-Philadelphia, PA<br></strong>
+Philadelphia, PA<br></strong></p>
 
-<br><p><strong>Eric Phetteplace<br/>
+<p><strong>Eric Phetteplace<br/>
 Systems Librarian<br/>
 California College of the Arts</strong></p>
 

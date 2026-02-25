@@ -50,27 +50,12 @@ You can also use the navigation buttons at the bottom of the screen.
 
 ### Print View
 
-Visit `/print.html` to see all slides in a single page, optimized for printing to PDF.
-
-**To create a PDF:**
-
-1. Navigate to `/print.html` in your browser
-2. Open print dialog (`Cmd/Ctrl + P`)
-3. Select "Save as PDF" as the destination
-4. Adjust settings as needed (remove headers/footers for cleaner output)
-5. Save
+Visit `/print.html` or select **Print View** from the slides view to see the presentation on a single page, optimized for printing to PDF.
 
 ## Adding New Slides
 
 1. Create a new Markdown file in `src/slides/`
 2. Add frontmatter with an `order` field to control slide sequence
-3. Write your content using Markdown
-
-## Customization
-
-- **Styles**: Edit `src/css/styles.css` to customize colors, fonts, and layout
-- **Slide dimensions**: Adjust CSS variables in `styles.css` (`:root` section)
-- **Navigation**: Modify `src/js/slides.js` to change keyboard shortcuts or behavior
 
 ## License
 
