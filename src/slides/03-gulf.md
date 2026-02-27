@@ -14,9 +14,12 @@ title: "Gulf of Reason"
     <p><span class="timeline-date">February 13:</span> Library of Congress issues <a href="https://classweb.org/tentative-subjects/2412a.html">Tentative Monthly List 12 LCSH 2</a></p>
   </li>
   <li class="timeline-item">
-    <p><span class="timeline-date">February 18:</span> Deadline for the useless comment period on LCSH changes</p>
+    <p><span class="timeline-date">February 18:</span> Deadline for the useless comment period on LCSH changes*</p>
   </li>
   <li class="timeline-item">
     <p><span class="timeline-date">March 14:</span> <a href="https://id.loc.gov/authorities/subjects/sh85084621.html">"America, Gulf of" enters LCSH</a></p>
   </li>
 </ol>
+
+<p class="footnote">* See "D.3.a. The BGN decision" in LC's <cite><a href="https://www.loc.gov/aba/publications/FreeSHM/H0690.pdf">Subject Headings Manual: Formulating Geographic Headings H 690</a></cite>. "If the BGN decision has been obtained, favor it over any other name forms obtained from other
+sources."</p>

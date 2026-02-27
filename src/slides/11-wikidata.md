@@ -8,14 +8,15 @@ title: "Wikidata"
 <div class="row">
     <div class="col">
         <ul>
-            <li>Largest data set
+            <li>"Openness" is a core principle
+            <li>"Edit wars", contributors may not share our values
             <!-- <li>Most "linked" of all data models; many available properties (NB: not worth mentioning? this is not particulary important to us) -->
             <li>Easy to contribute to
-            <li>"Openness" is a core principle
         </ul>
     </div>
     <div class="col">
         <ul>
+            <li>Largest data set by far
             <li>Not intended for use as a GLAM authority
             <li>Great for proper nouns; what about subjects?</li>
         </ul>

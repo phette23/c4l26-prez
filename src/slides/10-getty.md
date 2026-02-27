@@ -11,13 +11,14 @@ title: "Getty"
 
     <div class="col">
         <ul>
-            <li>Numerous relevant vocabularies: ULAN (names), AAT (subjects, genres), TGN (places)
-            <li>Also well-structured with convenient data features
+            <li><a href="https://www.getty.edu/research-institute/mission/">Mission</a> is "To cultivate advanced knowledge of art and its varied histories"
+            <li>Numerous relevant vocabularies: ULAN (names), AAT (subjects, genres), TGN (places)*
+            <li>Well-structured, hierarchical, data exports
             <li>Focus on art & architecture is perfect
             <li>We were already using some terms & some are not available in LC
-            <li>Register to edit the vocabs; did not get to experiment
+            <li>Register to edit vocabularies
         </ul>
     </div>
 </div>
 
-<p class="footnote"><abbr title="Cultural Objects Name Authority">CONA</abbr> is also pretty relevant for us but I did not end up using it for any of our terms.</p>
+<p class="footnote">* <abbr title="Cultural Objects Name Authority">CONA</abbr> is also relevant but I did not end up using it.</p>

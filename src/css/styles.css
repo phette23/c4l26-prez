@@ -366,7 +366,8 @@ figcaption {
   text-align: center;
 }
 
-.large-text {
+.large-text,
+.large-text li {
   font-size: 1.5rem;
 }
 

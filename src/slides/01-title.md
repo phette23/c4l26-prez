@@ -5,6 +5,9 @@ title: "On Searching for Library Standards that Align with Library Values"
 
 <p class="center subtitle" style="font-size: 200%;">phette.net/c4l26</p>
 
+<div class="row">
+
+<div class="col">
 <p>
 <!-- code4lib logo -->
 <svg version="1.1" width="181" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 -4.4666666984558105 210.90000915527344 28">
@@ -32,6 +35,21 @@ Philadelphia, PA<br></strong></p>
 <p><strong>Eric Phetteplace<br/>
 Systems Librarian<br/>
 California College of the Arts</strong></p>
+</div>
+
+<div class="col">
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <standard authority="???" values="???">
+    What lurks behind yond name URI?
+  </standard>
+</metadata>
+```
+
+</div>
+</div>
 
 <div class="social-links">
   <a href="https://digipres.club/@phette23" rel="me" aria-label="Mastodon profile">
