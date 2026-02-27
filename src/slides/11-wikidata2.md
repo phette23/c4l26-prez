@@ -7,7 +7,7 @@ title: "Ongoing Wikimedia Projects"
     <div class="col">
         <figure>
         <img src="img/CCA art feminism editathon 2016.jpg" alt="A group of people working on laptops in a library. Bound volumes with orange, green, and maroon spines are visible in the background. Two foreground figures include a dark-haired woman with a dotted shirt and a white man wearing a red Code4Lib shirt.">
-        <figcaption>Art+Feminism Edit-a-thon at CCA (2016). I am front-left wearing a Code4Lib shirt.</figcaption>
+        <figcaption>Art+Feminism Edit-a-thon at CCA (2016). I am front-right wearing a Code4Lib shirt.</figcaption>
         </figure>
     </div>
 
