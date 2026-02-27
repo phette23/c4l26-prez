@@ -423,3 +423,42 @@ figcaption {
   margin-top: auto;
   padding-top: 2rem;
 }
+
+/* ===== TIMELINE STYLES ===== */
+.timeline {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-left: 3rem;
+  position: relative;
+}
+
+/* Calendar icon via CSS */
+.timeline-item::before {
+  background-image: url('../img/calendar-icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  flex-shrink: 0;
+  height: 32px;
+  left: 0;
+  position: absolute;
+  top: 0.2rem;
+  width: 32px;
+}
+
+.timeline-item p {
+  margin-bottom: 0.5rem;
+}
+
+.timeline-date {
+  color: var(--accent-color);
+  font-weight: 600;
+}
