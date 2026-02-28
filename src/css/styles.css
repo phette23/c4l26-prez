@@ -288,8 +288,16 @@ body {
     min-height: 100vh;
   }
 
+  /* underline serves no purpose when printed */
   abbr {
-    text-decoration: none;
+    text-decoration: none !important;
+  }
+
+  /* Force timeline icons to print */
+  .timeline-item::before {
+    background-image: url('../img/calendar-icon.svg') !important;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 }
 
@@ -414,6 +422,13 @@ figcaption {
   width: 24px;
 }
 
+/* indent for references */
+.csl-entry {
+  margin-bottom: 0.5rem;
+  margin-left: 5rem;
+  text-indent: -5rem;
+}
+
 /* Footnotes - smaller, fainter text at bottom of slide */
 .footnote {
   color: var(--gray-font);
@@ -446,11 +461,13 @@ figcaption {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  color-adjust: exact;
   content: '';
   flex-shrink: 0;
   height: 32px;
   left: 0;
   position: absolute;
+  print-color-adjust: exact;
   top: 0.2rem;
   width: 32px;
 }
@@ -462,4 +479,13 @@ figcaption {
 .timeline-date {
   color: var(--accent-color);
   font-weight: 600;
+}
+
+/* ===== CODE BLOCK STYLES ===== */
+/* Preserve syntax highlighting colors when printing to PDF */
+code,
+pre,
+.token {
+  color-adjust: exact;
+  print-color-adjust: exact;
 }
