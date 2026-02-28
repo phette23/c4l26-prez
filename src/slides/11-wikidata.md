@@ -17,8 +17,8 @@ title: "Wikidata"
     <div class="col">
         <ul>
             <li>Largest data set by far
-            <li>Not intended for use as a GLAM authority
-            <li>Great for proper nouns; what about subjects?</li>
+            <li>Not intended for use as a <abbr title="Galleries, Libraries, Archives, and Museums">GLAM</abbr> authority
+            <li>Good for proper nouns; what about subjects/forms?</li>
         </ul>
     </div>
 </div>
